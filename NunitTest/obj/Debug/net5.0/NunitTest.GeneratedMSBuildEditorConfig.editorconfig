@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = NunitTest
+build_property.ProjectDir = C:\Users\kmajhi\Desktop\Automation Work and Reports\Learning\CP-SAT\OneDrive_2_8-11-2021\AutomationCSharp\NunitTest\

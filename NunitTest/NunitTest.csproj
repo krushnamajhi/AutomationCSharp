@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+
+    <GeneratedAssemblyInfoFile>Assemblyinfo.cs</GeneratedAssemblyInfoFile>
+
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+
+    <SignAssembly>false</SignAssembly>
+
+    <Authors>Krushna Dipayan Majhi</Authors>
+
+    <Company>Deloitte</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NUnit" Version="3.13.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
+    <PackageReference Include="coverlet.collector" Version="3.0.2" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="Serilog.Formatting.Compact" Version="1.1.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Helpers\Helpers.csproj" />
+    <ProjectReference Include="..\ReportLibrary\ReportLibrary.csproj" />
+    <ProjectReference Include="..\RunTimeSettings\RunTimeSettings.csproj" />
+    <ProjectReference Include="..\SeleniumLibrary\SeleniumLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

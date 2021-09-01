@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Helpers\Helpers.csproj" />
+    <ProjectReference Include="..\RunTimeSettings\RunTimeSettings.csproj" />
+    <ProjectReference Include="..\SeleniumLibrary\SeleniumLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettingsKeywordDriven.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\ObjectRepository\" />
+    <Folder Include="Resources\TestData\" />
+    <Folder Include="Resources\TestScript\CPSATScripts\" />
+    <Folder Include="Resources\TestSuite\CPSAT\" />
+  </ItemGroup>
+
+</Project>
