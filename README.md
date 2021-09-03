@@ -10,7 +10,9 @@ This Solution has below feature available:-
 4. Built in POM and Keyword Driven Framework is integrated
 
 
-Framework Structure
+
+
+Framework Structure:
 
 This Framework has been created with 6 projects
 1. Helper - This is an Independent Project having the common functionalities such as Reading Excel, Writing to an Excel File, Connecting to DataBase, Image Manupulation, Logger and accessing appSettings.json.
